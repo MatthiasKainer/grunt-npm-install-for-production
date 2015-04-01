@@ -1,7 +1,7 @@
 {
   "name": "grunt-npm-install-for-production",
   "description": "Installs all production specific npm packages for a specific directory",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "homepage": "https://github.com/MatthiasKainer/grunt-npm-install-for-production",
   "author": "mkainer (http://matthias-kainer.de)",
   "repository": {

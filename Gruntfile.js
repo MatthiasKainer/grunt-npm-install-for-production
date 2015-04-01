@@ -23,6 +23,7 @@ module.exports = function(grunt) {
     },
 
     npm_install_for_production: {
+        "default" : {}
     }
 
   });

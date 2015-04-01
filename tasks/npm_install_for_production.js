@@ -10,9 +10,9 @@
 
 module.exports = function(grunt) {
   var loadPackages = function(forPath) {
-    var packages = require(options.cwd + '/package.json');
+    var packages = require(forPath + '/package.json');
     return Object.keys(packages.dependencies);
-  }
+  };
 
   grunt.registerMultiTask('npm_install_for_production', 'Installs all production specific npm packages for a specific directory', function() {
     var done = this.async();
