@@ -24,9 +24,12 @@ In your project's Gruntfile, add a section named `npm_install_for_production` to
 
 ```js
 grunt.initConfig({
-  npm_install_for_production: {
-    options: {
+  "npm_install_for_production": {
+    "options": {
       // Task-specific options go here.
+    },
+    "your_target" : {
+
     }
   },
 });
@@ -47,9 +50,11 @@ In this example, the default options are used to do something with whatever. So 
 
 ```js
 grunt.initConfig({
-  npm_install_for_production: {
-    options: {
-      "cwd" : "~/some/project"
+  "npm_install_for_production": {    
+    "dev" : {
+      "options": {
+        "cwd" : "~/some/project"
+      },
     }
   },
 });

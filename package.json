@@ -2,22 +2,19 @@
   "name": "grunt-npm-install-for-production",
   "description": "Installs all production specific npm packages for a specific directory",
   "version": "1.0.0",
-  "homepage": "https://github.com/mkainer/grunt-npm-install-for-production",
-  "author": {
-    "name": "mkainer",
-    "url": "http://matthias-kainer.de"
-  },
+  "homepage": "https://github.com/MatthiasKainer/grunt-npm-install-for-production",
+  "author": "mkainer (http://matthias-kainer.de)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mkainer/grunt-npm-install-for-production.git"
+    "url": "git://github.com/MatthiasKainer/grunt-npm-install-for-production.git"
   },
   "bugs": {
-    "url": "https://github.com/mkainer/grunt-npm-install-for-production/issues"
+    "url": "https://github.com/MatthiasKainer/grunt-npm-install-for-production/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/mkainer/grunt-npm-install-for-production/blob/master/LICENSE-MIT"
+      "url": "https://github.com/MatthiasKainer/grunt-npm-install-for-production/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {
@@ -40,5 +37,7 @@
   ],
   "dependencies": {
     "npm": "^2.7.4"
-  }
+  },
+  "main": "Gruntfile.js",
+  "license": "MIT"
 }
